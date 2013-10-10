@@ -37,6 +37,7 @@ if ('development' == app.get('env')) {
 
 app.get('/', function(req, res) {
   res.render('index', {user: req.user});
+  console.log(req.user);
 })
 
 app.get('/account', ensureLoggedIn('/'), function(req, res){
