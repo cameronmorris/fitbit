@@ -1,7 +1,7 @@
 var FitbitStrategy = require('passport-fitbit').Strategy
 
-var FITBIT_CONSUMER_KEY = "41761c360ad347159e6e6a18969eb328"
-var FITBIT_CONSUMER_SECRET = "99a6f19cb2df44428ec27c9451f5392a"
+var FITBIT_CONSUMER_KEY = "enter consumer key"
+var FITBIT_CONSUMER_SECRET = "enter consumer secret"
 
 module.exports = function(passport){
   passport.serializeUser(function(user,done){
